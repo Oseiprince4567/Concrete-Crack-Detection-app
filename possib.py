@@ -20,7 +20,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     # Replace with path to your actual model
-    return tf.keras.models.load_model("Crack Detection/crack_model.h5")
+    return tf.keras.models.load_model("crack_model.h5")
 
 model = load_model()
 
